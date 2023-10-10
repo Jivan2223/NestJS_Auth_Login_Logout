@@ -10,7 +10,7 @@ step2: npm i
 ================================================================
 step3: npm run start:dev       //Server is running on port 3000
 ================================================================
-step4: open postman
+step4: open postman> Use following steps or you can import "UserLoginLogoutAuth.postman_collection.json"
     -----------------------------------------------------------
     SignUP:
         POST:
