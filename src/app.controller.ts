@@ -19,7 +19,7 @@ export class AppController {
     }
   }
   
-  @Get('chunkdata')
+  @Get('product-price-category')
   getProductsAndPrices(): any[] {
     return this.appService.getProductsAndPrices();
   }
