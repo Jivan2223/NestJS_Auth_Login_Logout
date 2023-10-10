@@ -18,6 +18,11 @@ export class AppController {
       return 'Failed to fetch Chuck Norris joke.';
     }
   }
+  
+  @Get('chunkdata')
+  getProductsAndPrices(): any[] {
+    return this.appService.getProductsAndPrices();
+  }
 
   @Post('users/signup')
   async register(
